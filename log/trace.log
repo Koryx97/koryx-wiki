@@ -163,3 +163,29 @@
 2022-08-12 12:16:34.521 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
 2022-08-12 12:16:55.970 INFO  org.apache.tomcat.util.http.Parameters            :173  [32m                  [0;39m Invalid chunk starting at byte [0] and ending at byte [5] with a value of [=TEST] ignored
  Note: further occurrences of Parameter errors will be logged at DEBUG level.
+2022-08-12 12:26:00.667 INFO  com.koryx.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_341 on DESKTOP-R85L7MP with PID 8552 (C:\Users\Koryx\OneDrive - Georgia Institute of Technology\SDE\wiki_project\koryxwiki\target\classes started by Koryx in C:\Users\Koryx\OneDrive - Georgia Institute of Technology\SDE\wiki_project\koryxwiki)
+2022-08-12 12:26:00.673 INFO  com.koryx.wiki.config.WikiApplication             :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-08-12 12:26:02.573 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8881 (http)
+2022-08-12 12:26:02.588 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8881"]
+2022-08-12 12:26:02.589 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-12 12:26:02.589 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-12 12:26:02.802 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-12 12:26:02.804 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2058 ms
+2022-08-12 12:26:03.370 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8881"]
+2022-08-12 12:26:03.399 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8881 (http) with context path ''
+2022-08-12 12:26:03.416 INFO  com.koryx.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 3.535 seconds (JVM running for 4.134)
+2022-08-12 12:26:03.421 INFO  com.koryx.wiki.config.WikiApplication             :22   [32m                  [0;39m lauched successfully!!
+2022-08-12 12:26:03.422 INFO  com.koryx.wiki.config.WikiApplication             :23   [32m                  [0;39m address: 	http://127.0.0.1:8881
+2022-08-12 12:27:17.533 INFO  com.koryx.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_341 on DESKTOP-R85L7MP with PID 8092 (C:\Users\Koryx\OneDrive - Georgia Institute of Technology\SDE\wiki_project\koryxwiki\target\classes started by Koryx in C:\Users\Koryx\OneDrive - Georgia Institute of Technology\SDE\wiki_project\koryxwiki)
+2022-08-12 12:27:17.539 INFO  com.koryx.wiki.config.WikiApplication             :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-08-12 12:27:19.050 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8882 (http)
+2022-08-12 12:27:19.064 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8882"]
+2022-08-12 12:27:19.064 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-12 12:27:19.065 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-12 12:27:19.271 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-12 12:27:19.272 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1624 ms
+2022-08-12 12:27:19.754 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8882"]
+2022-08-12 12:27:19.780 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8882 (http) with context path ''
+2022-08-12 12:27:19.792 INFO  com.koryx.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 3.1 seconds (JVM running for 3.705)
+2022-08-12 12:27:19.795 INFO  com.koryx.wiki.config.WikiApplication             :22   [32m                  [0;39m lauched successfully!!
+2022-08-12 12:27:19.796 INFO  com.koryx.wiki.config.WikiApplication             :23   [32m                  [0;39m address: 	http://127.0.0.1:8882
