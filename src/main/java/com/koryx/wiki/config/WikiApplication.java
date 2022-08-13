@@ -1,5 +1,6 @@
 package com.koryx.wiki.config;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -12,6 +13,7 @@ import org.springframework.core.env.Environment;
 // @ComponentScan({"com.koryx", "com.test"})
 @ComponentScan("com.koryx")
 @SpringBootApplication
+@MapperScan("com.koryx.wiki.mapper")
 public class WikiApplication {
 
 	private static final Logger LOG = LoggerFactory.getLogger(WikiApplication.class);
