@@ -7,5 +7,3 @@ create table `test` (
 ) ENGINE = innodb default charset=utf8mb4 comment='test';
 
 insert into `test` (id, name, password) values (1, 'test', 'password');
-
-select * from `test`;
